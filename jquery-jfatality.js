@@ -36,7 +36,7 @@
 	
 		addFila: function(event){
 			this.fila[this.fila.length] = event.keyCode;
-			if (this.opt.logKeys) console.log(event.keyCode);
+			//if (this.opt.logKeys) console.log(event.keyCode);
 			this.check(this);
 		},
 	
